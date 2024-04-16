@@ -1,0 +1,13 @@
+name: Test
+on: 
+  push:
+    branches: [ main ]
+
+jobs:
+  RunE2ETest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: npx playwright test
