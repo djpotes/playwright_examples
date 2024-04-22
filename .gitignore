@@ -7,3 +7,5 @@ package-lock.json
 
 /test-results/
 /playwright-report/
+/allure-results/
+
