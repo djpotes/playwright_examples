@@ -3,7 +3,7 @@ const { test, expect } = require("@playwright/test");
 
 test("has title", async ({ page }) => {
   await page.goto("https://playwright.dev/");
-  let ad47;
+  let ad48;
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Playwright/);
 });
